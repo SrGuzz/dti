@@ -1,27 +1,27 @@
 # Rodando o Backend:
 # Navegue até a Pasta do Backend:
 Abra um terminal (prompt de comando) em seu sistema operacional.
-Use o comando cd para navegar até a pasta onde está localizado o código do backend.
+Use o comando (cd ./backend/) para navegar até a pasta onde está localizado o código do backend.
 
 # Instale as Dependências:
-Execute o comando npm install para instalar todas as dependências necessárias do projeto. Isso irá garantir que todas as bibliotecas e pacotes estejam instalados corretamente.
+Execute o comando (npm install) para instalar todas as dependências necessárias do projeto. Isso irá garantir que todas as bibliotecas e pacotes estejam instalados corretamente.
 
 # Inicie o Servidor Backend:
-Após instalar as dependências, execute o comando npm start para iniciar o servidor backend. Este comando pode variar dependendo de como você configurou seu projeto. Verifique o arquivo package.json na pasta do backend para ver qual script é usado para iniciar o servidor.
+Após instalar as dependências, execute o comando (npm run dev) para iniciar o servidor backend. 
 
 # Verifique se o Servidor está Rodando:
-Uma vez que o servidor esteja em execução, ele deverá imprimir informações no terminal, como "Servidor iniciado na porta 3000" ou algo semelhante, indicando que o servidor está pronto para aceitar solicitações.
+Uma vez que o servidor esteja em execução, ele deverá imprimir informações no terminal, como "Servidor iniciado na porta 8789", indicando que o servidor está pronto para aceitar solicitações.
 
 # Rodando o Frontend:
 # Navegue até a Pasta do Frontend:
 Abra um novo terminal (prompt de comando), se necessário.
-Use o comando cd para navegar até a pasta onde está localizado o código do frontend.
+Use o comando cd (./frontend/) para navegar até a pasta onde está localizado o código do frontend.
 
 # Instale as Dependências:
-Execute o comando npm install para instalar todas as dependências necessárias do projeto. Isso garantirá que todas as bibliotecas e pacotes estejam instalados corretamente.
+Execute o comando (npm install) para instalar todas as dependências necessárias do projeto. Isso garantirá que todas as bibliotecas e pacotes estejam instalados corretamente.
 
 # Inicie o Servidor de Desenvolvimento do Frontend:
-Após instalar as dependências, execute o comando npm start para iniciar o servidor de desenvolvimento do frontend. Este comando iniciará um servidor local e abrirá automaticamente o aplicativo em 
+Após instalar as dependências, execute o comando (npm start) para iniciar o servidor de desenvolvimento do frontend. Este comando iniciará um servidor local e abrirá automaticamente o aplicativo em 
 seu navegador padrão.
 
 # Verifique o Funcionamento do Frontend:
@@ -50,4 +50,6 @@ O dia da semana informado pelo usuário está correto.
 # Decisões de Projeto
 Optou-se por criar um programa simples e direto, focando na funcionalidade essencial de encontrar o melhor petshop com base nos critérios estabelecidos.
 O programa utiliza cálculos simples para determinar o petshop mais vantajoso, considerando tanto os preços dos banhos quanto a proximidade do canil.
+
+
 
