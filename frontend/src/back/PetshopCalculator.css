@@ -1,0 +1,27 @@
+.logo{
+    margin: 0px 0px 20px 10px;
+}
+.titulo{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+input{
+    margin-left: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border-color: rgb(138, 138, 138);
+}
+
+a{
+    font-size: 30px;
+    color: aliceblue;
+}
+
+.container_form{
+    width: 450px;
+    height: 350px;
+}
+.cachorro{
+    width: 50px;
+}
